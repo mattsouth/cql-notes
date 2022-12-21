@@ -1,0 +1,22 @@
+{
+  "resourceType": "MedicationDispense",
+  "contained": [{
+    "resourceType": "Medication",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http: //www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Metformin </div></div>"
+    },
+    "code": {
+      "coding": [{
+        "system": "http://snomed.info/sct",
+        "code": "385055001",
+        "display": "Metformin"
+      }]
+    }
+  }],
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/7217534",
+    "display": "Marla Singer"
+  }
+}
